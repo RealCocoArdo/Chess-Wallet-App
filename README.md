@@ -39,5 +39,5 @@ This [entropy guide](Libraries/EntropyGuide.md) instructs you on what to input. 
 1. Navigate to the Chess-Wallet folder and open it
 2. Open in the folder Libraries the `install-libraries-windows` or bash the `install-libraries-linux` file to dowload the libraries. You only need to do this once.
 3. Disconnect your Wifi
-4. Open the `start-on-windows` or bash the `start-on-linux` file to start the program.
+4. Open the `start-on-windows` file or bash the `start-on-linux` file to start the program.
 </details>
