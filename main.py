@@ -7,7 +7,7 @@ import binascii
 # Create application window
 root = Tk()
 root.title('Chess Wallet v.0.1')
-root.geometry("665x600")
+root.geometry("665x500")
 root.resizable(False, False)
 mybackword = 'yellow'
 myback = 'lightgrey'
@@ -28,7 +28,20 @@ placholder.grid(row=1, column=0)
 # Input board
 myEntropy = Entry(root, width=60)
 myEntropy.grid(row=2, column=1, sticky='w')
-# myEntropy.insert(0, 'YourSetup+YourExtention')
+myEntropy.insert(0, 'YourSetup+YourExtention')
+myEntropy.config(fg='grey')
+myEntropy.bind('<FocusIn>', lambda event: handle_focus_in(event, myEntropy))
+myEntropy.bind('<FocusOut>', lambda event: handle_focus_out(event, myEntropy))
+
+def handle_focus_in(event, widget):
+    if widget.get() == 'YourSetup+YourExtention':
+        widget.delete(0, 'end')
+        widget.config(fg='black')
+        
+def handle_focus_out(event, widget):
+    if widget.get() == '':
+        widget.insert(0, 'YourSetup+YourExtention')
+        widget.config(fg='grey')
 
 # Submit board
 def main_func():
@@ -2134,7 +2147,7 @@ def main_func():
         fp = open('Wallets/' + myStore.get() + '.txt', 'w')
         fp.write('Chess-Wallet - Bitcoin Wallet Backup \n \n \n')
         fp.write('Your chessboard setup/ your entropy was: \n \n' + chessboard + '\n \n \n')
-        fp.write('Your nnemonic words are: \n \n')
+        fp.write('Your bip39 mnemonic words are: \n \n')
         fp.writelines([str(i)+'\n' for i in firstwords_list])
         fp.close()
         e_label = Label(root, bg='lightgreen', text='Your seed got succesfully stored in the Wallets folder!')
