@@ -28,7 +28,7 @@ This [entropy guide](Libraries/EntropyGuide.md) instructs you on what to input. 
 
 1. Install the latest version of Python3 [here](https://python.org/downloads/).
     - Check add to PATH in the installation
-2. [Download](https://github.com/RealCocoArdo/Chess-Wallet/archive/refs/heads/main.zip) this repository and unzip it. Or clone it.
+2. [Download](https://github.com/RealCocoArdo/Chess-Wallet-App/archive/refs/heads/main.zip) this repository and unzip it. Or clone it.
 
 </details>
 
