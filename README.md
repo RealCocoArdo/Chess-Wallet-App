@@ -19,7 +19,7 @@ This [entropy guide](Libraries/EntropyGuide.md) instructs you on what to input. 
 
 - This was only designed for Bitcoin. No other shitcoin.<br>
 - I take no responsibility of my code. If you lose your Bitcoins its your fault.<br>
-- You can review the code yourself before using it.<br>
+- You can review the code yourself before using it. I added alot of comments into the code to make it more understandable.<br>
 </details>
 
 ## Requirements
