@@ -9,7 +9,7 @@ This setup will be the entropy to your 24 words/ to your bitcoins.
 ## Quality of entropy
 A chessboard has 8 by 8 squares. Which equals 64 squares in totall.
 There are 13 diffrent states(pieces being on them) one square can be in, including empty.
-So there are 64^13 possible combinations.
+So there are 64^13 possible combinations. Thats 302,231,455,000,000,000,000,000 or 0.302 Septillion possibilities
 
 This [entropy guide](Libraries/EntropyGuide.md) instructs you on what to input. <br>However the Chess-Wallet can be used to input any entropy.
 
