@@ -16,7 +16,7 @@ This [entropy guide](Libraries/EntropyGuide.md) instructs you on what to input. 
 ## Disclaimer !
 <details>
 <summary>see more</summary>
-- A weak entropy will result in <b>losing your funds</b>. Here is a good [explanation](https://www.youtube.com/watch?v=P1Mi608a318&feature=youtu.be) on that by Andreas.<br>
+- A weak entropy will result in <b>losing your funds</b>. Here is a good <a href="https://www.youtube.com/watch?v=P1Mi608a318&feature=youtu.be">explanation</a> on that by Andreas.<br>
 - This was only designed for Bitcoin. No other shitcoin.<br>
 - I take no responsibility of my code. If you lose your Bitcoins its your fault.<br>
 - You can review the code yourself before using it. I added alot of comments into the code to make it more understandable.<br>
